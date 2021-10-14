@@ -18,8 +18,8 @@ const navStyle = {
         </Link>
 
 
-        <Link style={navStyle} to='/about'>
-            <li>About</li>
+        <Link style={navStyle} to='/products'>
+            <li>Products</li>
         </Link>
 
         <Link style={navStyle}  to='/shop'>

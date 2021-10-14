@@ -1,7 +1,7 @@
 import React from 'react';
 import './App.css';
 import Nav from './Nav.js';
-import About from './About.js';
+import Products from './Products.js';
 import Shop from './Shop.js';
 import Cart from './Cart.js';
 import Checkout from './Checkout.js';
@@ -13,10 +13,12 @@ function App() {
 
     <Router>
         <div className="App">
+
           <Nav/>
+
           <Switch>
           <Route path="/" exact component={Home}/>
-          <Route path="/about" component={About}/>
+          <Route path="/products" component={Products}/>
           <Route path="/shop" component={Shop}/>   
           <Route path="/cart" component={Cart}/> 
           <Route path="/checkout" component={Checkout}/>   
