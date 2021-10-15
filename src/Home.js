@@ -13,7 +13,7 @@ function Home() {
         const data = await fetch(
             'https://swapi.dev/api/people'
         );
-
+// hello
         const results = await data.json();
         console.log(results.results);
         setResults(results.results);
