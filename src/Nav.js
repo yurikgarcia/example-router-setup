@@ -10,7 +10,7 @@ const navStyle = {
 
   return (
     <nav>
-        <h1>Urban Out-Routers</h1>
+        <h1>Star Wars Mania</h1>
         <ul className="nav-links">
 
         <Link style={navStyle} to='/'>

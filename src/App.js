@@ -5,6 +5,7 @@ import Products from './Products.js';
 import Shop from './Shop.js';
 import Cart from './Cart.js';
 import Checkout from './Checkout.js';
+import Home from './Home.js';
 import {BrowserRouter as Router, Switch, Route} from 'react-router-dom';
 
 
@@ -28,10 +29,5 @@ function App() {
   );
 }
 
-const Home = () => (
-  <div>
-    <h1>Home Page</h1>
-  </div>
-);
 
 export default App;
